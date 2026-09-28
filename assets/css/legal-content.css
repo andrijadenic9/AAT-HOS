@@ -1,0 +1,17 @@
+/* Inline links inside the legal pages' article body (email, phone, and
+   cross-links like "Terms of Service") have no theme styling of their own,
+   so browsers fall back to default blue/underline. Style them to match the
+   site's teal accent instead. */
+.tj-post__content a {
+    color: var(--tj-theme-primary, #00b3a4);
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(0, 179, 164, 0.4);
+    padding-bottom: 1px;
+    transition: color 0.2s ease, border-color 0.2s ease;
+}
+.tj-post__content a:hover,
+.tj-post__content a:focus-visible {
+    color: var(--tj-white, #fff);
+    border-color: rgba(255, 255, 255, 0.6);
+}

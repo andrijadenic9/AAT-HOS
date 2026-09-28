@@ -1,0 +1,1372 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="AAT HOS delivers FMCSA-certified ELD compliance, automatic Hours-of-Service logging, digital DVIR inspections, and real-time fleet tracking built for trucking companies of every size." data-i18n-content="meta.description" />
+
+    <!-- Site Title -->
+    <title data-i18n="meta.title">AAT HOS | FMCSA-Certified ELD & Fleet Compliance</title>
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" href="./assets/img/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="./assets/img/favicon.png" />
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/font-awesome-pro.min.css" />
+    <link rel="stylesheet" href="assets/css/flaticon_gerold.css" />
+    <link rel="stylesheet" href="assets/css/nice-select.css" />
+    <link rel="stylesheet" href="assets/css/backToTop.css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/swiper.min.css" />
+    <link rel="stylesheet" href="assets/css/odometer-theme-default.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/venobox.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/main-2.css" />
+    <link rel="stylesheet" href="assets/css/main-3.css" />
+    <link rel="stylesheet" href="assets/css/gerold-core.css" />
+    <link rel="stylesheet" href="assets/css/light-mode.css" />
+    <link rel="stylesheet" href="assets/css/meanmenu.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/responsive-2.css" />
+    <link rel="stylesheet" href="assets/css/responsive-3.css" />
+    <link rel="stylesheet" href="assets/css/lang-switcher.css" />
+
+    <!-- Custom spacing fixes for this page's section combination -->
+    <style>
+        /* tj-testimonial-9-area normally sits right after a same-background
+           section (Resume) in index-9.html so it ships with no top padding.
+           Here it follows the Portfolio section, so it needs its own top
+           breathing room to match the page's 120px/60px spacing rhythm. */
+        .tj-testimonial-9-area {
+            padding-top: 120px;
+        }
+        @media only screen and (min-width: 768px) and (max-width: 991px),
+            only screen and (min-width: 576px) and (max-width: 767px),
+            (max-width: 575px) {
+            .tj-testimonial-9-area {
+                padding-top: 60px;
+            }
+        }
+
+        /* Make the "Expert Consulting" CTA card go full-width / edge-to-edge
+           instead of the original rounded, inset card from index-10.html. */
+        .aat-cta-full-bleed {
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .aat-cta-full-bleed .container-fluid,
+        .aat-cta-full-bleed .row,
+        .aat-cta-full-bleed .col-12 {
+            padding-left: 0;
+            padding-right: 0;
+            margin-left: 0;
+            margin-right: 0;
+            max-width: 100%;
+        }
+        .aat-cta-full-bleed .cta-10-wrapper {
+            border-radius: 0;
+        }
+
+        /* The theme's ".hero_scroll .down span" rule is meant only for the
+           small icon-circle span, but it also matches our translated text
+           span and squeezes it into a 22x32px pill. Reset it back to plain
+           rotated text. */
+        .hero_scroll .down span.hero-scroll-text {
+            width: auto;
+            height: auto;
+            border: none;
+            border-radius: 0;
+            transform: none;
+        }
+
+        /* Same collision on the FAQ accordion: ".tj-resume-6-accordion-button
+           span" is meant for a small icon span, but it also caps our
+           question-text span at max-width:60px. Give it real room instead,
+           leaving space on the right for the +/- icon. */
+        .tj-resume-6-accordion-button span.faq-question-text {
+            display: inline-block;
+            max-width: calc(100% - 50px);
+            width: auto;
+            margin-right: 0;
+        }
+
+        /* ".tj-resume-6-marquee-title" clips a gradient to its own text via
+           -webkit-text-fill-color:transparent + background-clip:text. That
+           transparency inherits into our translated text span, but the
+           gradient background doesn't — so the span rendered invisible.
+           Give it the same gradient/clip so it looks the same as before. */
+        .tj-resume-6-marquee-title span.faq-marquee-text {
+            background: linear-gradient(107deg, rgba(0, 179, 164, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Preloader Area Start -->
+    <div class="preloader">
+        <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
+            <path id="preloaderSvg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+        </svg>
+        <div class="preloader-heading">
+            <div class="load-text">
+                <span>L</span>
+                <span>o</span>
+                <span>a</span>
+                <span>d</span>
+                <span>i</span>
+                <span>n</span>
+                <span>g</span>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader Area End -->
+
+    <!-- start: Back To Top -->
+    <div class="progress-wrap" id="scrollUp">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- end: Back To Top -->
+
+    <!-- start: Header Area -->
+    <header class="tj-header-area header-6 header-absolute">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 d-flex flex-wrap justify-content-between align-items-center">
+                    <div class="tj-header-4-logo">
+                        <div class="logo-box">
+                            <a href="index.html">
+                                <img src="assets/img/images/logo/AAT-HOS-white.png" alt="Logo" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header-menu" id="headerMenu">
+                        <nav>
+                            <ul>
+                                <li class="lang-switcher-item">
+                                    <div class="lang-switcher">
+                                        <button type="button" class="lang-switcher-current" aria-haspopup="listbox" aria-expanded="false">
+                                            <span class="lang-switcher-current-label">EN</span>
+                                            <i class="fa-regular fa-chevron-down"></i>
+                                        </button>
+                                        <div class="lang-switcher-options" role="listbox">
+                                            <button type="button" class="lang-option is-active" data-lang="en" role="option" aria-selected="true">EN</button>
+                                            <button type="button" class="lang-option" data-lang="es" role="option" aria-selected="false">ESP</button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a class="current-menu-item" href="#home" data-i18n="nav.home">Home</a></li>
+                                <li><a href="#about" data-i18n="nav.about">About</a></li>
+                                <li><a href="#services" data-i18n="nav.services">Services</a></li>
+                                <li><a href="#fleets" data-i18n="nav.fleets">Fleets We Serve</a></li>
+                                <li><a href="#faq" data-i18n="nav.faq">FAQ</a></li>
+                                <li><a href="#footer" data-i18n="nav.contact">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="mobile-menu d-lg-none"></div>
+                    <div class="header-button">
+                        <a href="#" class="btn tj-btn-primary"><span data-i18n="nav.getStarted">Get Started</span> <i class="fa-regular fa-arrow-right"></i></a>
+                    </div>
+                    <div class="menu-bar d-lg-none">
+                        <button>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <header class="tj-header-area header-2 header-6-sticky header-sticky sticky-out">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 d-flex flex-wrap justify-content-between align-items-center">
+                    <div class="tj-header-4-logo">
+                        <div class="logo-box">
+                            <a href="index.html">
+                                <img src="assets/img/images/logo/AAT-HOS-white.png" alt="Logo" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header-menu">
+                        <nav>
+                            <ul>
+                                <li><a class="current-menu-item" href="#home" data-i18n="nav.home">Home</a></li>
+                                <li><a href="#about" data-i18n="nav.about">About</a></li>
+                                <li><a href="#services" data-i18n="nav.services">Services</a></li>
+                                <li><a href="#fleets" data-i18n="nav.fleets">Fleets We Serve</a></li>
+                                <li><a href="#faq" data-i18n="nav.faq">FAQ</a></li>
+                                <li><a href="#footer" data-i18n="nav.contact">Contact</a></li>
+                                <li class="lang-switcher-item">
+                                    <div class="lang-switcher">
+                                        <button type="button" class="lang-switcher-current" aria-haspopup="listbox" aria-expanded="false">
+                                            <span class="lang-switcher-current-label">EN</span>
+                                            <i class="fa-regular fa-chevron-down"></i>
+                                        </button>
+                                        <div class="lang-switcher-options" role="listbox">
+                                            <button type="button" class="lang-option is-active" data-lang="en" role="option" aria-selected="true">EN</button>
+                                            <button type="button" class="lang-option" data-lang="es" role="option" aria-selected="false">ESP</button>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="mobile-menu d-lg-none"></div>
+                    <div class="header-button">
+                        <a href="#" class="btn tj-btn-primary"><span data-i18n="nav.getStarted">Get Started</span> <i class="fa-regular fa-arrow-right"></i></a>
+                    </div>
+                    <div class="menu-bar d-lg-none">
+                        <button>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end: Header Area -->
+
+    <main class="site-content" id="content">
+
+        <!-- start: Hero Area -->
+        <section class="hero-section style-8" id="home" data-bg-image="assets/img/shapes/hero_8.svg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="hero-content-box style-8">
+                            <!-- <div class="subtitle"><img class="wave" src="assets/img/icons/hero-h8-1.png" alt="Icons">
+                                FMCSA-Certified ELD Provider</div> -->
+                            <h1 class="hero-title"><span data-i18n="hero.title1">Simplify ELD</span><span data-i18n="hero.title2">Compliance</span></h1>
+                            <div class="desc">
+                                <p data-i18n="hero.desc">AAT HOS pairs certified Hours-of-Service logging with real-time fleet visibility, so your drivers stay legal and dispatch stays ahead of the road.</p>
+                            </div>
+                            <div class="hero-button">
+                                <a href="#" class="btn tj-btn-primary"><span data-i18n="hero.cta">Request A Demo</span> <i
+                                        class="fa-regular fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="hero-8-images">
+                            <div class="hero-shapes"></div>
+                            <div class="hero8-mask-images">
+                                <img src="assets/img/images/hero-img-right.jpg" alt="Images">
+                            </div>
+                            <div class="hero-circle">
+                                <div class="circle-wrap">
+                                    <svg class="rotate-image" viewBox="0 0 140 100" width="125" height="125">
+                                        <defs>
+                                            <path id="circle3"
+                                                d=" M 50, 50 m -37, 0 a 37,37 0 1,1 110,0 a 37,37 0 1,1 -110,0"></path>
+                                        </defs>
+                                        <text font-size="14">
+                                            <textPath xlink:href="#circle3" class="shape-1" data-i18n="hero.circleText">SEE AAT HOS IN ACTION
+                                                SEE AAT HOS IN ACTION</textPath>
+                                        </text>
+                                    </svg>
+                                    <div class="circle-button">
+                                        <!-- <a class="circle video-popup" data-autoplay="true" data-vbtype="video"
+                                            data-maxwidth="1200px" href="#"><i
+                                                class="fa-sharp fa-solid fa-play"></i>
+                                        </a> -->
+                                        <a class="circle" style="cursor: default;" href="#"><i
+                                                class="fa-sharp fa-solid fa-play"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="images_shapes tj-counter-5-shape-1">
+                                <img src="assets/img/icons/hero-h8-2.png" alt="Shapes">
+                            </div> -->
+                            <div class="images_shapes-2 tj-counter-5-shape-2">
+                                <img src="assets/img/icons/hero-h8-3.png" alt="Shapes">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero_scroll">
+                <a class="down" href="#about"><span><i class="fa-regular fa-arrow-right"></i></span><span class="hero-scroll-text" data-i18n="hero.scroll">Scroll Down</span>
+                </a>
+            </div>
+            <!-- <div class="hero-8-socials">
+                <ul class="ul-reset social-icons">
+                    <li>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                </ul>
+            </div> -->
+        </section>
+        <!-- end: Hero Area -->
+
+        <!-- start: Maquee Area -->
+        <section class="tj-maquee-section maquee-style-8">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-2">
+                        <div class="funfact-item style-8">
+                            <div class="number">
+                                <span class="odometer" data-count="5000">0</span>+
+                            </div>
+                            <div class="text" data-i18n="marquee.onboarded">Onboarded Trucks</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-10">
+                        <div class="swiper maquee-slider-one">
+                            <div class="swiper-wrapper maquee-wrapper">
+                                <div class="swiper-slide marquee-item">
+                                    <div class="marquee-logo">
+                                        <img src="assets/img/roll/roll-img1.png" alt="thumb" />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide marquee-item">
+                                    <div class="marquee-logo">
+                                        <img src="assets/img/roll/roll-img2.png" alt="thumb" />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide marquee-item">
+                                    <div class="marquee-logo">
+                                        <img src="assets/img/roll/roll-img3.png" alt="thumb" />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide marquee-item">
+                                    <div class="marquee-logo">
+                                        <img src="assets/img/roll/roll-img4.png" alt="thumb" />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide marquee-item">
+                                    <div class="marquee-logo">
+                                        <img src="assets/img/roll/roll-img5.png" alt="thumb" />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide marquee-item">
+                                    <div class="marquee-logo">
+                                        <img src="assets/img/roll/roll-img6.png" alt="thumb" />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide marquee-item">
+                                    <div class="marquee-logo">
+                                        <img src="assets/img/roll/roll-img7.png" alt="thumb" />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide marquee-item">
+                                    <div class="marquee-logo">
+                                        <img src="assets/img/roll/roll-img8.png" alt="thumb" />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide marquee-item">
+                                    <div class="marquee-logo">
+                                        <img src="assets/img/roll/roll-img1.png" alt="thumb" />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide marquee-item">
+                                    <div class="marquee-logo">
+                                        <img src="assets/img/roll/roll-img2.png" alt="thumb" />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide marquee-item">
+                                    <div class="marquee-logo">
+                                        <img src="assets/img/roll/roll-img3.png" alt="thumb" />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide marquee-item">
+                                    <div class="marquee-logo">
+                                        <img src="assets/img/roll/roll-img4.png" alt="thumb" />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide marquee-item">
+                                    <div class="marquee-logo">
+                                        <img src="assets/img/roll/roll-img5.png" alt="thumb" />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide marquee-item">
+                                    <div class="marquee-logo">
+                                        <img src="assets/img/roll/roll-img6.png" alt="thumb" />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide marquee-item">
+                                    <div class="marquee-logo">
+                                        <img src="assets/img/roll/roll-img7.png" alt="thumb" />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide marquee-item">
+                                    <div class="marquee-logo">
+                                        <img src="assets/img/roll/roll-img8.png" alt="thumb" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- end: Maquee Area -->
+
+        <!-- start: About Area -->
+        <section class="tj-about-section style-8" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="about-wrapper-8">
+                            <div class="about-8-images wow zoomIn">
+                                <img src="assets/img/images/img-1.png" alt="Images">
+                                <div class="about_shapes tj-counter-5-shape-1">
+                                    <img src="assets/img/shapes/ab-8-shapes.png" alt="Shapes">
+                                </div>
+                            </div>
+                            <div class="about-8-content">
+                                <div class="section-header style-5">
+                                    <span class="subtitle wow fadeInUp" data-wow-delay=".3s" data-i18n="about.subtitle">About AAT HOS</span>
+                                    <h2 class="title tj-text-invert" data-i18n="about.title">Purpose-Built ELD Software That Keeps Fleets Legal
+                                        And Loaded.</h2>
+                                </div>
+                                <div class="desc wow fadeInUp" data-wow-delay=".3s">
+                                    <p data-i18n="about.desc">AAT HOS was built around one goal: take the guesswork out of Hours-of-Service compliance. From owner-operators to multi-terminal carriers, we keep logs accurate, inspections fast, and dispatchers in the loop.</p>
+                                </div>
+                                <div class="list-style-two wow fadeInUp" style="max-width: 100%;" data-wow-delay=".4s">
+                                    <ul>
+                                        <li data-i18n="about.list1">FMCSA-Certified Logging</li>
+                                        <li data-i18n="about.list2">Automatic HOS Tracking</li>
+                                        <li data-i18n="about.list3">Real-Time GPS Visibility</li>
+                                        <li data-i18n="about.list4">Paperless DVIR Reports</li>
+                                        <li data-i18n="about.list5">IFTA Mileage Tracking</li>
+                                        <li data-i18n="about.list6">24/7 Driver Support</li>
+                                    </ul>
+                                </div>
+                                <div class="about-button wow fadeInUp" data-wow-delay=".5s">
+                                    <a href="#" class="btn tj-btn-primary"><span data-i18n="about.cta">See How It Works</span> <i
+                                            class="fa-regular fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end: About Area -->
+
+        <!-- start: Service Area -->
+        <section class="tj-service-7-area" id="services">
+            <div class="container">
+                <div class="row">
+                    <div class="tj-testimonial-7-section-wrapper">
+                        <div class="section-header style-7 text-center">
+                            <div class="subtitle tj_title_anim" data-delay="0.3">
+                                <span data-i18n="services.subtitle">our solutions</span>
+                            </div>
+                            <h2 class="title tj_title_anim" data-i18n="services.title">Everything Your Fleet Needs To Stay Compliant.</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <div class="tj-service-7-wrapper wow fadeInUp" data-wow-delay=".3s">
+                            <div class="tj-service-7-icon">
+                                <span><img src="assets/img/icons/clock.svg" alt="" /></span>
+                            </div>
+                            <h4 class="tj-service-7-title">
+                                <a class="modal-popup" href="#" data-i18n="services.item1.title">Hours Of Service Logging</a>
+                            </h4>
+                            <div class="tj-service-7-paragraph">
+                                <p data-i18n="services.item1.desc">
+                                    Automatic driving detection synced to the engine keeps every log accurate, so drivers spend less time on paperwork and more time on the road.
+                                </p>
+                            </div>
+                            <div class="tj-service-7-button">
+                                <a class="modal-popup" href="#">
+                                    <span class="icon_box">
+                                        <i class="icon_first fa-regular fa-arrow-right"></i>
+                                        <i class="icon_second fa-regular fa-arrow-right"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <div class="tj-service-7-wrapper wow fadeInUp" data-wow-delay=".5s">
+                            <div class="tj-service-7-icon">
+                                <span><img src="assets/img/icons/searching.svg" alt="" /></span>
+                            </div>
+                            <h4 class="tj-service-7-title">
+                                <a class="modal-popup" href="#" data-i18n="services.item2.title">Driver Vehicle Inspections</a>
+                            </h4>
+                            <div class="tj-service-7-paragraph">
+                                <p data-i18n="services.item2.desc">
+                                    Digital pre- and post-trip DVIR reports catch issues early, route defects straight to maintenance, and keep vehicles road-ready.
+                                </p>
+                            </div>
+                            <div class="tj-service-7-button">
+                                <a class="modal-popup" href="#">
+                                    <span class="icon_box">
+                                        <i class="icon_first fa-regular fa-arrow-right"></i>
+                                        <i class="icon_second fa-regular fa-arrow-right"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <div class="tj-service-7-wrapper wow fadeInUp" data-wow-delay=".7s">
+                            <div class="tj-service-7-icon">
+                                <span><img src="assets/img/icons/report.svg" alt="" /></span>
+                            </div>
+                            <h4 class="tj-service-7-title">
+                                <a class="modal-popup" href="#" data-i18n="services.item3.title">IFTA & Fleet Reporting</a>
+                            </h4>
+                            <div class="tj-service-7-paragraph">
+                                <p data-i18n="services.item3.desc">
+                                    Automated mileage tracking across every state turns quarterly IFTA filing into a five-minute task instead of a week-long headache.
+                                </p>
+                            </div>
+                            <div class="tj-service-7-button">
+                                <a class="modal-popup" href="#">
+                                    <span class="icon_box">
+                                        <i class="icon_first fa-regular fa-arrow-right"></i>
+                                        <i class="icon_second fa-regular fa-arrow-right"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end: Service Area -->
+
+        <!-- start: Service Popup -->
+        <div id="service-wrapper" class="popup_content_area zoom-anim-dialog mfp-hide" data-lenis-prevent>
+            <div class="popup_modal_img">
+                <img src="./assets/img/services/modal-img.jpg" alt="" />
+            </div>
+            <div class="popup_modal_content">
+                <div class="service_details">
+                    <div class="row">
+                        <div class="col-lg-7 col-xl-8">
+                            <div class="service_details_content">
+                                <div class="service_info">
+                                    <h6 class="subtitle" data-i18n="servicePopup.subtitle">SERVICES</h6>
+                                    <h2 class="title" data-i18n="servicePopup.title">Our ELD Platform</h2>
+                                    <div class="desc">
+                                        <p data-i18n="servicePopup.desc1">
+                                            AAT HOS combines automatic Hours-of-Service logging, digital DVIR
+                                            inspections, and live GPS tracking into a single dashboard built for
+                                            dispatchers, safety managers, and drivers alike.
+                                        </p>
+
+                                        <p data-i18n="servicePopup.desc2">
+                                            Every device is FMCSA-certified and pairs with your truck's engine in
+                                            minutes, so there's no rewiring, no guesswork, and no downtime getting
+                                            your fleet compliant.
+                                        </p>
+
+                                        <p data-i18n="servicePopup.desc3">
+                                            Whether you run one truck or three hundred, the same platform scales with
+                                            you — with U.S.-based support answering calls day and night.
+                                        </p>
+                                    </div>
+
+                                    <h3 class="title" data-i18n="servicePopup.howTitle">How Onboarding Works</h3>
+                                    <div class="desc">
+                                        <p data-i18n="servicePopup.howDesc">
+                                            Getting compliant with AAT HOS takes less time than your next pre-trip
+                                            inspection.
+                                        </p>
+                                    </div>
+                                    <ul>
+                                        <li data-i18n="servicePopup.step1">Order Your ELD Kit</li>
+                                        <li data-i18n="servicePopup.step2">Plug Into the Engine Port</li>
+                                        <li data-i18n="servicePopup.step3">Activate the Driver App</li>
+                                        <li data-i18n="servicePopup.step4">Import Your Fleet Roster</li>
+                                        <li data-i18n="servicePopup.step5">Run Your First Inspection</li>
+                                        <li data-i18n="servicePopup.step6">Go Live in Under 10 Minutes</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-xl-4">
+                            <div class="tj_main_sidebar">
+                                <div class="sidebar_widget services_list">
+                                    <div class="widget_title">
+                                        <h3 class="title" data-i18n="servicePopup.allServices">All Services</h3>
+                                    </div>
+                                    <ul>
+                                        <li class="active">
+                                            <button>
+                                                <i class="flaticon-design"></i>
+                                                <span data-i18n="servicePopup.list1">Hours of Service Logging</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button>
+                                                <i class="flaticon-3d-movie"></i>
+                                                <span data-i18n="servicePopup.list2">DVIR & Inspections</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button>
+                                                <i class="flaticon-ux-design"></i>
+                                                <span data-i18n="servicePopup.list3">IFTA Reporting</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button>
+                                                <i class="flaticon-web-design"></i>
+                                                <span data-i18n="servicePopup.list4">Fleet GPS Tracking</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button>
+                                                <i class="flaticon-ui-design"></i>
+                                                <span data-i18n="servicePopup.list5">Driver Compliance Tools</span>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="sidebar_widget contact_form">
+                                    <div class="widget_title">
+                                        <h3 class="title" data-i18n="servicePopup.getInTouch">Get in Touch</h3>
+                                    </div>
+                                    <form action="index.html">
+                                        <div class="form_group">
+                                            <input type="text" name="name" id="name" placeholder="Name"
+                                                autocomplete="off" data-i18n-placeholder="form.name" />
+                                        </div>
+                                        <div class="form_group">
+                                            <input type="email" name="semail" id="semail" placeholder="Email"
+                                                autocomplete="off" data-i18n-placeholder="form.email" />
+                                        </div>
+                                        <div class="form_group">
+                                            <textarea name="smessage" id="smessage" placeholder="Your message"
+                                                autocomplete="off" data-i18n-placeholder="form.message"></textarea>
+                                        </div>
+                                        <div class="form_btn">
+                                            <button class="btn tj-btn-primary" type="submit" data-i18n="form.send">
+                                                Send Message
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end: Service Popup -->
+
+        <!-- start: Portfolio Area -->
+        <section class="tj-portfolio-section style-8" id="fleets">
+            <div class="container">
+                <div class="row">
+                    <div class="section-header style-5 text-center">
+                        <span class="subtitle wow fadeInUp" data-wow-delay=".3s" data-i18n="fleets.subtitle">Who We Serve</span>
+                        <h2 class="title tj-text-invert" data-i18n="fleets.title">Built To Fit Every Fleet</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="portfolio-wrapper-8">
+                            <div class="portfolio-tem style-8">
+                                <div class="portfolio-8-images wow zoomIn" data-tilt>
+                                    <a class="modal-popup" href="#"><img
+                                    src="assets/img/images/serve-01.jpg" alt="Images"></a>
+                                </div>
+                                <div class="portfolio-content wow fadeInUp" data-wow-delay=".3s">
+                                    <span class="number">01.</span>
+                                    <h2 class="title"><a class="modal-popup" href="#" data-i18n="fleets.item1.title">Owner-Operators</a></h2>
+                                    <div class="desc">
+                                        <p data-i18n="fleets.item1.desc">One truck, zero paperwork headaches — AAT HOS keeps solo drivers compliant
+                                            without a fleet-sized price tag or a learning curve.</p>
+                                    </div>
+                                    <a class="arrow_link modal-popup" href="#">
+                                        <span class="icon_box">
+                                            <i class="icon_first fa-regular fa-arrow-right"></i>
+                                            <i class="icon_second fa-regular fa-arrow-right"></i>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-tem style-8">
+                                <div class="portfolio-8-images wow zoomIn" data-tilt>
+                                    <a class="modal-popup" href="#"><img
+                                    src="assets/img/images/serve-02.jpg" alt="Images"></a>
+                                </div>
+                                <div class="portfolio-content wow fadeInUp" data-wow-delay=".4s">
+                                    <span class="number">02.</span>
+                                    <h2 class="title"><a class="modal-popup" href="#" data-i18n="fleets.item2.title">Regional Carriers</a></h2>
+                                    <div class="desc">
+                                        <p data-i18n="fleets.item2.desc">Coordinate dozens of trucks across multiple terminals with shared
+                                            dashboards, driver scorecards, and real-time dispatch visibility.</p>
+                                    </div>
+                                    <a class="arrow_link modal-popup" href="#">
+                                        <span class="icon_box">
+                                            <i class="icon_first fa-regular fa-arrow-right"></i>
+                                            <i class="icon_second fa-regular fa-arrow-right"></i>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-tem style-8">
+                                <div class="portfolio-8-images wow zoomIn" data-tilt>
+                                    <a class="modal-popup" href="#"><img
+                                    src="assets/img/images/serve-03.jpg" alt="Images"></a>
+                                </div>
+                                <div class="portfolio-content wow fadeInUp" data-wow-delay=".5s">
+                                    <span class="number">03.</span>
+                                    <h2 class="title"><a class="modal-popup" href="#" data-i18n="fleets.item3.title">Enterprise Fleets</a></h2>
+                                    <div class="desc">
+                                        <p data-i18n="fleets.item3.desc">API access, custom reporting, and dedicated account managers give large
+                                            carriers the control they need at scale.</p>
+                                    </div>
+                                    <a class="arrow_link modal-popup" href="#">
+                                        <span class="icon_box">
+                                            <i class="icon_first fa-regular fa-arrow-right"></i>
+                                            <i class="icon_second fa-regular fa-arrow-right"></i>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end: Portfolio Area -->
+
+        <!-- start: Portfolio Popup -->
+        <div id="portfolio-wrapper" class="popup_content_area zoom-anim-dialog mfp-hide" data-lenis-prevent>
+            <div class="popup_modal_img">
+                <img src="./assets/img/portfolio/modal-img.jpg" alt="" />
+            </div>
+            <div class="popup_modal_content">
+                <div class="portfolio_info">
+                    <div class="portfolio_info_text">
+                        <h2 class="title" data-i18n="portfolioPopup.title">Enterprise Fleet Rollout</h2>
+                        <div class="desc">
+                            <p data-i18n="portfolioPopup.intro">
+                                A 220-truck regional carrier needed to replace paper logs before a DOT audit
+                                deadline. Here's how the rollout went.
+                            </p>
+                        </div>
+                        <a href="#" class="btn tj-btn-primary"><span data-i18n="portfolioPopup.readCaseStudy">read case study</span> <i class="fal fa-arrow-right"></i></a>
+                    </div>
+                    <div class="portfolio_info_items">
+                        <div class="info_item">
+                            <div class="key" data-i18n="portfolioPopup.fleetSizeLabel">Fleet Size</div>
+                            <div class="value" data-i18n="portfolioPopup.fleetSizeValue">220 Trucks</div>
+                        </div>
+                        <div class="info_item">
+                            <div class="key" data-i18n="portfolioPopup.industryLabel">Industry</div>
+                            <div class="value" data-i18n="portfolioPopup.industryValue">Regional Freight</div>
+                        </div>
+                        <div class="info_item">
+                            <div class="key" data-i18n="portfolioPopup.rolloutLabel">Rollout Time</div>
+                            <div class="value" data-i18n="portfolioPopup.rolloutValue">3 Weeks</div>
+                        </div>
+                        <div class="info_item">
+                            <div class="key" data-i18n="portfolioPopup.managerLabel">Account Manager</div>
+                            <div class="value"><a href="#" data-i18n="portfolioPopup.managerValue">AAT HOS Onboarding Team</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio_gallery owl-carousel">
+                    <div class="gallery_item">
+                        <img src="./assets/img/portfolio-gallery/p-gallery-1.jpg" alt="" />
+                    </div>
+                    <div class="gallery_item">
+                        <img src="./assets/img/portfolio-gallery/p-gallery-2.jpg" alt="" />
+                    </div>
+                    <div class="gallery_item">
+                        <img src="./assets/img/portfolio-gallery/p-gallery-3.jpg" alt="" />
+                    </div>
+                    <div class="gallery_item">
+                        <img src="./assets/img/portfolio-gallery/p-gallery-4.jpg" alt="" />
+                    </div>
+                </div>
+                <div class="portfolio_description">
+                    <h2 class="title" data-i18n="portfolioPopup.descTitle">Project Description</h2>
+                    <div class="desc">
+                        <p data-i18n="portfolioPopup.desc1">
+                            The carrier's dispatch team was tracking Hours of Service by hand across four terminals,
+                            and drivers were losing time re-entering logs at every stop. AAT HOS's automatic engine
+                            sync and shared dashboard eliminated duplicate entry entirely.
+                        </p>
+
+                        <p data-i18n="portfolioPopup.desc2">
+                            Within the first month, HOS violations dropped and roadside inspections went from a
+                            stressful scramble to a two-minute log transfer, giving both drivers and safety managers
+                            room to breathe.
+                        </p>
+                    </div>
+                </div>
+                <div class="portfolio_story_approach">
+                    <div class="portfolio_story">
+                        <div class="story_title">
+                            <h4 class="title" data-i18n="portfolioPopup.storyTitle">The story</h4>
+                        </div>
+                        <div class="story_content">
+                            <p data-i18n="portfolioPopup.storyContent">
+                                Before AAT HOS, the fleet's safety manager spent two full days each week reconciling
+                                paper logs against dispatch records. Missed entries and illegible handwriting made
+                                audits painful, and the carrier had already received two compliance warnings that
+                                year.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="portfolio_approach">
+                        <div class="approach_title">
+                            <h4 class="title" data-i18n="portfolioPopup.approachTitle">OUR APPROACH</h4>
+                        </div>
+                        <div class="approach_content">
+                            <p data-i18n="portfolioPopup.approachContent">
+                                We started with a phased rollout — ten trucks in week one to validate the engine
+                                integration, then the remaining fleet over the following two weeks. Drivers were
+                                trained through the in-app tutorial, and dispatch got a live map view from day one.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio_navigation">
+                    <div class="navigation_item prev-project">
+                        <a href="#" class="project">
+                            <i class="fal fa-arrow-left"></i>
+                            <div class="nav_project">
+                                <div class="label" data-i18n="portfolioPopup.prevLabel">Previous Project</div>
+                                <h3 class="title" data-i18n="portfolioPopup.prevTitle">Cold Chain Logistics</h3>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="navigation_item next-project">
+                        <a href="#" class="project">
+                            <div class="nav_project">
+                                <div class="label" data-i18n="portfolioPopup.nextLabel">Next Project</div>
+                                <h3 class="title" data-i18n="portfolioPopup.nextTitle">Owner-Operator Rollout</h3>
+                            </div>
+                            <i class="fal fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end: Portfolio Popup -->
+
+        <!-- start: Testimonial Area -->
+        <section class="tj-testimonial-9-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-5 col-md-8">
+                        <div class="tj-testimonial-9-section">
+                            <div class="section-header style-5">
+                                <div class="sec-text">
+                                    <span class="subtitle" data-wow-delay=".3s" data-i18n="testimonials.subtitle">Fleet Feedback</span>
+                                    <h2 class="title tj-text-invert" data-i18n="testimonials.title">What Fleets Are Saying.</h2>
+                                    <p data-i18n="testimonials.desc">AAT HOS pairs FMCSA-certified hardware with a support team that actually understands trucking — here's what dispatchers and drivers have to say.</p>
+                                    <div class="tj-about-9-button">
+                                        <a href="#" class="btn tj-btn-primary"><span data-i18n="testimonials.cta">Talk To Sales</span> <i class="fa-regular fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-lg-7">
+                        <div class="tj-testimonial-9-slider wow fadeInUp">
+                            <div class="tj-testimonial-9-active swiper swiper-container">
+                                <div class="swiper-wrapper">
+                                    <!-- slide 1 -->
+                                    <div class="tj-testimonial-9-wrapper swiper-slide">
+                                        <div class="tj-testimonial-9-top">
+                                            <div class="tj-testimonial-9-author">
+                                                <div class="tj-testimonial-9-author-img">
+                                                    <img src="assets/img/images/testimonials/man-3.png" alt="">
+                                                </div>
+                                                <div class="tj-testimonial-9-author-name">
+                                                    <h4 class="title">Marcus Whitfield</h4>
+                                                    <div class="desc" data-i18n="testimonials.t1.role">Safety Manager, Whitfield Logistics</div>
+                                                </div>
+                                            </div>
+                                            <div class="tj-testimonial-9-review">
+                                                <div class="testimonial-rating">
+                                                    <div class="star-ratings">
+                                                        <div class="fill-ratings" style="width: 88%">
+                                                            <span>★★★★★</span>
+                                                        </div>
+                                                        <div class="empty-ratings">
+                                                            <span>★★★★★</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tj-testimonial-9-paragraph">
+                                            <p class="desc" data-i18n="testimonials.t1.quote">“Roadside inspections used to take fifteen minutes of
+                                                fumbling with paper logs. Now our drivers hand the officer a tablet
+                                                and it's done before the coffee gets cold. AAT HOS paid for itself the
+                                                first week we had it.”</p>
+                                        </div>
+                                    </div>
+
+                                    <!-- slide 2 -->
+                                    <div class="tj-testimonial-9-wrapper swiper-slide">
+                                        <div class="tj-testimonial-9-top">
+                                            <div class="tj-testimonial-9-author">
+                                                <div class="tj-testimonial-9-author-img">
+                                                    <img src="assets/img/images/testimonials/man-1.png" alt="">
+                                                </div>
+                                                <div class="tj-testimonial-9-author-name">
+                                                    <h4 class="title">Dean Reyes</h4>
+                                                    <div class="desc" data-i18n="testimonials.t2.role">Owner-Operator</div>
+                                                </div>
+                                            </div>
+                                            <div class="tj-testimonial-9-review">
+                                                <div class="testimonial-rating">
+                                                    <div class="star-ratings">
+                                                        <div class="fill-ratings" style="width: 88%">
+                                                            <span>★★★★★</span>
+                                                        </div>
+                                                        <div class="empty-ratings">
+                                                            <span>★★★★★</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tj-testimonial-9-content">
+                                            <p class="tj-testimonial-9-paragraph" data-i18n="testimonials.t2.quote">“I run one truck and I don't have
+                                                time to babysit software. AAT HOS synced with my engine in under ten
+                                                minutes and I haven't thought about my ELD since. It just works.”</p>
+                                        </div>
+                                    </div>
+
+                                    <!-- slide 3 -->
+                                    <div class="tj-testimonial-9-wrapper swiper-slide">
+                                        <div class="tj-testimonial-9-top">
+                                            <div class="tj-testimonial-9-author">
+                                                <div class="tj-testimonial-9-author-img">
+                                                    <img src="assets/img/images/testimonials/man-2.png" alt="">
+                                                </div>
+                                                <div class="tj-testimonial-9-author-name">
+                                                    <h4 class="title">Kevin O'Malley</h4>
+                                                    <div class="desc" data-i18n="testimonials.t3.role">Dispatch Lead, Ironclad Freight</div>
+                                                </div>
+                                            </div>
+                                            <div class="tj-testimonial-9-review">
+                                                <div class="testimonial-rating">
+                                                    <div class="star-ratings">
+                                                        <div class="fill-ratings" style="width: 88%">
+                                                            <span>★★★★★</span>
+                                                        </div>
+                                                        <div class="empty-ratings">
+                                                            <span>★★★★★</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tj-testimonial-9-content">
+                                            <p class="tj-testimonial-9-paragraph" data-i18n="testimonials.t3.quote">“Being able to see every truck's
+                                                hours and location from one screen changed how we plan routes. We
+                                                catch HOS issues before they become violations, not after.”</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end: Testimonial Area -->
+
+        <!-- start: FAQ Area -->
+        <section class="tj-resume-6-area" id="faq">
+            <div class="tj-resume-6-top tj-resume-6-marquee-top">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col">
+                            <div class="swiper maquee-slider-one">
+                                <div class="swiper-wrapper maquee-wrapper">
+                                    <div class="swiper-slide marquee-item">
+                                        <div class="tj-marquee-6-text">
+                                            <h2 class="tj-resume-6-marquee-title"><span><img
+                                                        src="assets/img/icons/star-6.svg" alt=""></span> <span class="faq-marquee-text" data-i18n="faq.marquee">FAQ'S</span></h2>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide marquee-item">
+                                        <div class="tj-marquee-6-text">
+                                            <h2 class="tj-resume-6-marquee-title"><span><img
+                                                        src="assets/img/icons/star-6.svg" alt=""></span> <span class="faq-marquee-text" data-i18n="faq.marquee">FAQ'S</span></h2>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide marquee-item">
+                                        <div class="tj-marquee-6-text">
+                                            <h2 class="tj-resume-6-marquee-title"><span><img
+                                                        src="assets/img/icons/star-6.svg" alt=""></span> <span class="faq-marquee-text" data-i18n="faq.marquee">FAQ'S</span></h2>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide marquee-item">
+                                        <div class="tj-marquee-6-text">
+                                            <h2 class="tj-resume-6-marquee-title"><span><img
+                                                        src="assets/img/icons/star-6.svg" alt=""></span> <span class="faq-marquee-text" data-i18n="faq.marquee">FAQ'S</span></h2>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide marquee-item">
+                                        <div class="tj-marquee-6-text">
+                                            <h2 class="tj-resume-6-marquee-title"><span><img
+                                                        src="assets/img/icons/star-6.svg" alt=""></span> <span class="faq-marquee-text" data-i18n="faq.marquee">FAQ'S</span></h2>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide marquee-item">
+                                        <div class="tj-marquee-6-text">
+                                            <h2 class="tj-resume-6-marquee-title"><span><img
+                                                        src="assets/img/icons/star-6.svg" alt=""></span> <span class="faq-marquee-text" data-i18n="faq.marquee">FAQ'S</span></h2>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide marquee-item">
+                                        <div class="tj-marquee-6-text">
+                                            <h2 class="tj-resume-6-marquee-title"><span><img
+                                                        src="assets/img/icons/star-6.svg" alt=""></span> <span class="faq-marquee-text" data-i18n="faq.marquee">FAQ'S</span></h2>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide marquee-item">
+                                        <div class="tj-marquee-6-text">
+                                            <h2 class="tj-resume-6-marquee-title"><span><img
+                                                        src="assets/img/icons/star-6.svg" alt=""></span> <span class="faq-marquee-text" data-i18n="faq.marquee">FAQ'S</span></h2>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide marquee-item">
+                                        <div class="tj-marquee-6-text">
+                                            <h2 class="tj-resume-6-marquee-title"><span><img
+                                                        src="assets/img/icons/star-6.svg" alt=""></span> <span class="faq-marquee-text" data-i18n="faq.marquee">FAQ'S</span></h2>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide marquee-item">
+                                        <div class="tj-marquee-6-text">
+                                            <h2 class="tj-resume-6-marquee-title"><span><img
+                                                        src="assets/img/icons/star-6.svg" alt=""></span> <span class="faq-marquee-text" data-i18n="faq.marquee">FAQ'S</span></h2>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide marquee-item">
+                                        <div class="tj-marquee-6-text">
+                                            <h2 class="tj-resume-6-marquee-title"><span><img
+                                                        src="assets/img/icons/star-6.svg" alt=""></span> <span class="faq-marquee-text" data-i18n="faq.marquee">FAQ'S</span></h2>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide marquee-item">
+                                        <div class="tj-marquee-6-text">
+                                            <h2 class="tj-resume-6-marquee-title"><span><img
+                                                        src="assets/img/icons/star-6.svg" alt=""></span> <span class="faq-marquee-text" data-i18n="faq.marquee">FAQ'S</span></h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tj-resume-6-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="tj-resume-6-wrapper">
+                                <div class="resume-6-sidebar-content">
+                                    <div class="tj-resume-6-left ">
+                                        <div class="section-header style-4">
+                                            <span class="subtitle" data-wow-delay=".3s" data-i18n="faq.subtitle">Got Questions?</span>
+                                            <h2 class="title tj-text-invert" data-i18n="faq.title">Frequently Asked Questions.</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="resume-6-inner">
+                                    <div class="accordion" id="general_faqaccordion">
+                                        <div class="accordion-item tj-resume-6-accordion-item wow fadeInUp"
+                                            data-wow-delay=".2s">
+                                            <h2 class="accordion-header tj-resume-6-accordion-header" id="faq_one">
+                                                <button class="accordion-button tj-resume-6-accordion-button"
+                                                    type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#faq__collapse_one" aria-expanded="true"
+                                                    aria-controls="faq__collapse_one">
+                                                    <span class="faq-question-text" data-i18n="faq.q1.q">Is AAT HOS FMCSA-certified?</span>
+                                                </button>
+                                            </h2>
+                                            <div id="faq__collapse_one" class="accordion-collapse collapse show"
+                                                aria-labelledby="faq_one" data-bs-parent="#general_faqaccordion">
+                                                <div class="accordion-body tj-resume-6-accordion-body">
+                                                    <p data-i18n="faq.q1.a">Yes. AAT HOS meets all FMCSA ELD technical specifications and
+                                                        is listed on the official registered device list, so your
+                                                        logs hold up at roadside inspections and DOT audits.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item tj-resume-6-accordion-item wow fadeInUp"
+                                            data-wow-delay=".4s">
+                                            <h2 class="accordion-header tj-resume-6-accordion-header" id="faq_two">
+                                                <button class="accordion-button collapsed tj-resume-6-accordion-button"
+                                                    type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#faq__collapse_two" aria-expanded="false"
+                                                    aria-controls="faq__collapse_two">
+                                                    <span class="faq-question-text" data-i18n="faq.q2.q">How long does installation take?</span>
+                                                </button>
+                                            </h2>
+                                            <div id="faq__collapse_two" class="accordion-collapse collapse"
+                                                aria-labelledby="faq_two" data-bs-parent="#general_faqaccordion">
+                                                <div class="accordion-body tj-resume-6-accordion-body">
+                                                    <p data-i18n="faq.q2.a">Most trucks are up and running in under ten minutes. The
+                                                        device plugs into your engine's diagnostic port, pairs with
+                                                        the driver app over Bluetooth, and starts logging
+                                                        automatically.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item tj-resume-6-accordion-item wow fadeInUp"
+                                            data-wow-delay=".6s">
+                                            <h2 class="accordion-header tj-resume-6-accordion-header" id="faq_three">
+                                                <button class="accordion-button collapsed tj-resume-6-accordion-button"
+                                                    type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#faq__collapse_three" aria-expanded="false"
+                                                    aria-controls="faq__collapse_three">
+                                                    <span class="faq-question-text" data-i18n="faq.q3.q">Does it work across multiple states?</span>
+                                                </button>
+                                            </h2>
+                                            <div id="faq__collapse_three" class="accordion-collapse collapse"
+                                                aria-labelledby="faq_three" data-bs-parent="#general_faqaccordion">
+                                                <div class="accordion-body tj-resume-6-accordion-body">
+                                                    <p data-i18n="faq.q3.a">Yes. Dispatchers get one dashboard for the whole fleet
+                                                        regardless of how many terminals or states you operate in,
+                                                        and IFTA mileage is tracked automatically across every
+                                                        jurisdiction.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item tj-resume-6-accordion-item wow fadeInUp"
+                                            data-wow-delay=".8s">
+                                            <h2 class="accordion-header tj-resume-6-accordion-header" id="faq_four">
+                                                <button class="accordion-button collapsed tj-resume-6-accordion-button"
+                                                    type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#faq__collapse_four" aria-expanded="false"
+                                                    aria-controls="faq__collapse_four">
+                                                    <span class="faq-question-text" data-i18n="faq.q4.q">What happens in dead zones?</span>
+                                                </button>
+                                            </h2>
+                                            <div id="faq__collapse_four" class="accordion-collapse collapse"
+                                                aria-labelledby="faq_four" data-bs-parent="#general_faqaccordion">
+                                                <div class="accordion-body tj-resume-6-accordion-body">
+                                                    <p data-i18n="faq.q4.a">The driver app keeps logging offline and syncs automatically
+                                                        once it reconnects, so a dead zone or dropped signal never
+                                                        turns into a missing log.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end: FAQ Area -->
+
+        <!-- start: Text Area -->
+        <section class="tj-cta-section style-10 aat-cta-full-bleed" style="padding: 0;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="cta-10-wrapper" data-bg-image="assets/img/shapes/cta-10-shapes.png">
+                            <div class="section-header style-5 text-center">
+                                <div class="sec-text">
+                                    <span class="subtitle wow fadeInUp" data-wow-delay=".3s" data-i18n="cta2.subtitle">Why Fleets Choose Us</span>
+                                    <h2 class="title wow fadeInUp" data-wow-delay=".4s"> <span data-i18n="cta2.titlePart1"> Smarter</span> <span data-i18n="cta2.titlePart2">Compliance</span> <br> <span><span data-i18n="cta2.titlePart3">For Stronger</span>  <img class="cta-2" src="assets/img/images/logo/AAT-HOS-white.png" alt="Images" style="border-radius: 0;"> </span> <span data-i18n="cta2.titlePart4"> Fleets.</span> </h2>
+                                </div>
+                                <div class="desc wow fadeInUp" data-wow-delay=".5s">
+                                    <p data-i18n="cta2.desc">From the first mile to your next DOT audit, AAT HOS keeps hours-of-service, inspections, and fleet data working together — so compliance never slows your trucks down.</p>
+                                </div>
+                                <div class="cta-button text-center wow fadeInUp" data-wow-delay=".6s">
+                                    <a href="#" class="btn tj-btn-primary"><span data-i18n="cta2.button">Talk To Our Team</span> <i class="fa-regular fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end: Text Area -->
+
+    </main>
+
+    <!-- start: Footer Area -->
+    <section class="tj-footer-7-area tj-footer-9-area" id="footer" data-bg-image="assets/img/images/footer-bg.png">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="tj-footer-7-top">
+                        <div class="container">
+                            <div class="row">
+                                <div class="tj-footer-7-top-wrapper">
+                                    <div class="footer-widget widget-info tj-footer-9-col-1 wow fadeInUp" data-wow-delay=".3s">
+                                        <div class="footer-logo">
+                                            <a href="#"><img src="assets/img/images/logo/footer-logo.png" alt=""></a>
+                                        </div>
+                                        <div class="desc">
+                                            <p data-i18n="footer.desc">AAT HOS keeps your fleet compliant with FMCSA-certified ELD logging, real-time tracking, and support that actually understands trucking.</p>
+                                        </div>
+                                        <div class="tj-footer-9-social">
+                                            <ul class="ul-reset social-icons tj-header-5-right-social-icons">
+                                                <li>
+                                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="footer-widget tj-footer-9-col-2 widget_nav_menu wow fadeInUp" data-wow-delay=".5s">
+                                        <div class="footer-title">
+                                            <h6 class="title" data-i18n="footer.legalTitle">Legal Details</h6>
+                                        </div>
+                                        <nav>
+                                            <ul>
+                                                <li><a href="privacy-policy.html" data-i18n="footer.privacy">Policy Privacy</a></li>
+                                                <li><a href="terms-of-service.html" data-i18n="footer.tos">Terms of Service</a></li>
+                                                <li><a href="terms-and-conditions.html" data-i18n="footer.tac">Terms and Conditions</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                    <div class="footer-widget tj-footer-9-col-3 footer_contact wow fadeInUp" data-wow-delay=".7s">
+                                        <div class="footer-title">
+                                            <h4 class="title" data-i18n="footer.contactTitle">Contact</h4>
+                                        </div>
+                                        <div class="contact-item">
+                                            <ul>
+                                                <li><a href="#" data-i18n="footer.address">6340 Joliet Rd, Countryside, IL 60525</a></li>
+                                                <li><a href="mailto:info@aateld.com">info@aateld.com</a></li>
+                                                <li><a href="tel:+1616280414">+1 (616) 280-414</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="footer-widget tj-footer-9-col-3 footer_socials_media wow fadeInUp" data-wow-delay=".9s">
+                                        <div class="footer-title">
+                                            <h4 class="tj-footer-7-top-title"><span data-i18n="footer.newsletterTitle1">Subscribe To Our</span> <br>
+                                                <span data-i18n="footer.newsletterTitle2">Newsletter!</span></h4>
+                                        </div>
+                                        <div class="tj-footer-7-top-form wow fadeInUp" data-wow-delay=".3s">
+                                            <form>
+                                                <input type="text" placeholder="Enter First Name" data-i18n-placeholder="footer.firstName">
+                                                <button type="submit" class="tj-footer-7-top-submit-btn">
+                                                    <span class="icon_box">
+                                                        <i class="icon_first fa-regular fa-arrow-right"></i>
+                                                        <i class="icon_second fa-regular fa-arrow-right"></i>
+                                                    </span>
+                                                </button>
+                                            </form>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tj-footer-7-bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="tj-footer-7-wrapper">
+                                        <div class="tj-footer-6-left">
+                                            <p class="tj-footer-6-paragraph" data-i18n="footer.support">24/7 FLEET SUPPORT</p>
+                                        </div>
+                                        <div class="tj-footer-6-middle">
+                                            <div class="footer-menu tj-footer-6-menu">
+                                                <nav>
+                                                    <ul>
+                                                        <li><a href="#home" data-i18n="footer.navHome">Home.</a></li>
+                                                        <li><a href="#about" data-i18n="footer.navAbout">About.</a></li>
+                                                        <li><a href="#services" data-i18n="footer.navServices">Services.</a></li>
+                                                        <li><a href="#fleets" data-i18n="footer.navFleets">Fleets.</a></li>
+                                                    </ul>
+                                                </nav>
+                                            </div>
+                                        </div>
+                                        <div class="tj-footer-6-right">
+                                            <p class="tj-footer-6-copyright"><span data-i18n="footer.copyright">© All rights reserved by</span> <a href="#">AAT HOS</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end: Footer Area -->
+
+    <!-- JS here -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/gsap-scroll-to-plugin.min.js"></script>
+    <script src="assets/js/gsap-scroll-trigger.min.js"></script>
+    <script src="assets/js/gsap-split-text.min.js"></script>
+    <script src="assets/js/lenis.min.js"></script>
+
+    <script src="assets/js/nice-select.min.js"></script>
+    <script src="assets/js/backToTop.js"></script>
+    <script src="assets/js/appear.min.js"></script>
+    <script src="assets/js/sticky.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/lightcase.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/imagesloaded-pkgd.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/odometer.min.js"></script>
+    <script src="assets/js/magnific-popup.js"></script>
+    <script src="assets/js/vanilla-tilt.min.js"></script>
+    <script src="assets/js/validate.min.js"></script>
+    <script src="assets/js/meanmenu.js"></script>
+    <script src="assets/js/venobox.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/i18n.js"></script>
+</body>
+
+</html>

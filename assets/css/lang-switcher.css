@@ -1,0 +1,130 @@
+/* Language switcher (EN / ESP) — lives as a nav <li>, alongside Home/About/etc.
+   Shared across every page (index + legal pages) that includes the nav. */
+.lang-switcher-item {
+    display: flex;
+    align-items: center;
+}
+.lang-switcher {
+    position: relative;
+    z-index: 120;
+}
+.lang-switcher-current {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 14px;
+    background-color: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 30px;
+    color: var(--tj-white, #fff);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 1;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+.lang-switcher-current:hover,
+.lang-switcher.is-open .lang-switcher-current {
+    background-color: rgba(255, 255, 255, 0.14);
+    border-color: rgba(255, 255, 255, 0.4);
+}
+.lang-switcher-current i {
+    font-size: 10px;
+    transition: transform 0.2s ease;
+}
+.lang-switcher.is-open .lang-switcher-current i {
+    transform: rotate(180deg);
+}
+.lang-switcher-options {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    min-width: 100px;
+    margin: 0;
+    padding: 6px;
+    background-color: var(--tj-black-2, #050709);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 14px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s ease;
+}
+.lang-switcher.is-open .lang-switcher-options {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+.lang-option {
+    display: block;
+    width: 100%;
+    padding: 8px 12px;
+    background: none;
+    border: 0;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-align: left;
+    cursor: pointer;
+}
+.lang-option:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+    color: var(--tj-white, #fff);
+}
+.lang-option.is-active {
+    color: var(--tj-theme-primary, #00b3a4);
+}
+
+/* Desktop pill nav: the switcher sits first in the markup (so the
+   cloned mobile menu below can show it first), but visually it
+   should read last, after Contact — like any other nav control. */
+.tj-header-area .header-menu ul li.lang-switcher-item {
+    order: 99;
+}
+
+/* Mobile hamburger menu (meanmenu's cloned nav): show the switcher
+   first, as its own centered control with a divider under it,
+   separate from the uppercase nav links below. */
+.tj-header-area .mobile-menu .lang-switcher-item {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 18px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+.tj-header-area .mobile-menu .lang-switcher-options {
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%) translateY(-8px);
+    max-width: none;
+    margin: 0;
+    padding: 6px;
+}
+.tj-header-area .mobile-menu .lang-switcher.is-open .lang-switcher-options {
+    transform: translateX(-50%) translateY(0);
+}
+
+@media only screen and (max-width: 575px) {
+    .lang-switcher-current {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+}
+
+/* Spanish nav labels run longer than English — tighten the menu's
+   gap so "Flotas Que Atendemos" etc. still fit on one line. */
+html[lang="es"] .tj-header-area .header-menu ul {
+    column-gap: 22px;
+}
+@media only screen and (min-width: 1400px) {
+    html[lang="es"] .tj-header-area .header-menu ul > li > a {
+        font-size: 15px;
+    }
+}
