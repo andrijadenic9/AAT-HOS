@@ -107,6 +107,33 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
+
+        /* The theme's ".tj-resume-6-marquee-title span" rules shift every span
+           left (left:-15px/-18px) and cap it at 35-55px on tablet/mobile. That
+           pushes the first star out of the overflow-hidden swiper (cut-off
+           start) and squeezes our text span. Reset both spans in the FAQ marquee. */
+        #faq .tj-resume-6-marquee-title span {
+            left: 0;
+        }
+        #faq .tj-resume-6-marquee-title span.faq-marquee-text {
+            max-width: none;
+            width: auto;
+            white-space: nowrap;
+        }
+        @media (max-width: 991px) {
+            #faq .tj-resume-6-marquee-title {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+            }
+            #faq .tj-resume-6-marquee-title span:not(.faq-marquee-text) {
+                flex: 0 0 auto;
+                margin-right: 0;
+            }
+            #faq .tj-resume-6-marquee-title span.faq-marquee-text {
+                transform: none;
+            }
+        }
     </style>
 </head>
 
@@ -296,9 +323,9 @@
                             <!-- <div class="images_shapes tj-counter-5-shape-1">
                                 <img src="assets/img/icons/hero-h8-2.png" alt="Shapes">
                             </div> -->
-                            <div class="images_shapes-2 tj-counter-5-shape-2">
+                            <!-- <div class="images_shapes-2 tj-counter-5-shape-2">
                                 <img src="assets/img/icons/hero-h8-3.png" alt="Shapes">
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
